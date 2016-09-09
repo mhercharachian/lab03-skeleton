@@ -4,8 +4,8 @@ code skeleton and instructions for lab week 3
 activity lifecycle, state Bundle and Shared Preferences
 
 
-*PDF lab instructions are in the assets folder*
-[pdf here](assets/lab03-activity-logging-state-prefs.docx)
+*docx lab instructions are in the assets folder*
+[pdf here](/app/src/main/assets)
 
 Use logcat to watch the logging
 
