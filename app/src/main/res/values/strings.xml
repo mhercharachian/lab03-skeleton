@@ -14,7 +14,9 @@
     <string name="title_activity_activity_two">Activity Two</string>
     <string name="welcome">Welcome to Activity Two</string>
     <string name="close">Close Activity</string>
-	<string name="m_1">Sample Menu Item</string>
-    <string name="m_2">Sample Menu Item 2</string>
-	
+    <string name="rotateMe">Rotate the device to update the counters</string>
+
+    <string name="m_1">Menu Item 1</string>
+    <string name="m_2">Menu Item 2</string>
+
 </resources>

@@ -1,5 +1,242 @@
 [
     {
+        "outputFile": "/home/tricia/2017/lab03-skeleton/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 53,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 48,
+                    "endOffset": 203
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 208,
+                    "endColumn": 43,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 43,
+                        "endOffset": 888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 43,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 893,
+                        "endColumn": 43,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 50,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 54,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 56,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 52,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 56,
+                    "endOffset": 564
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 569,
+                    "endColumn": 54,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 624,
+                    "endColumn": 52,
+                    "endOffset": 672
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 677,
+                    "endColumn": 50,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 77,
+                    "endOffset": 801
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 806,
+                    "endColumn": 68,
+                    "endOffset": 870
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 875,
+                    "endColumn": 59,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1221
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1226,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1381
+                },
+                "from": {
+                    "file": "/home/tricia/2017/lab03-skeleton/app/src/main/res/values/styles.xml"
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/tricia/AndroidStudioProjects/lab03-skeleton/app/build/intermediates/res/merged/debug/values/values.xml",
         "map": [
             {

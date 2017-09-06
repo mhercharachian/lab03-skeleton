@@ -31,8 +31,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onStart(){
 		super.onStart();
-		
-		//Log cat print out
 		Log.i(TAG, "onStart called");
 
 	}
@@ -40,8 +38,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onResume(){
 		super.onResume();
-		
-		//Log cat print out
 		Log.i(TAG, "onResume called");
 
 	}
@@ -49,8 +45,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onPause(){
 		super.onPause();
-		
-		//Log cat print out
 		Log.i(TAG, "onPause called");
 		
 	}
@@ -58,8 +52,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onStop(){
 		super.onStop();
-		
-		//Log cat print out
 		Log.i(TAG, "onStop called");
 
 	}
@@ -67,8 +59,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onRestart(){
 		super.onRestart();
-		
-		//Log cat print out
 		Log.i(TAG, "onRestart called");
 
 	}
@@ -76,8 +66,6 @@ public class ActivityTwo extends Activity {
 	@Override
 	public void onDestroy(){
 		super.onDestroy();
-		
-		//Log cat print out
 		Log.i(TAG, "onDestroy called");
 
 	}

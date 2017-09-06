@@ -13,11 +13,9 @@ public class ActivityOne extends Activity {
 		// string for logcat documentation
 		private final static String TAG = "Lab-ActivityOne";
 
-	
-		// lifecycle counts	
-		//TODO:
-		//Create 7 counter variables, each corresponding to a different one of the lifecycle callback methods.
-		// You will need to increment these variables' values when their corresponding lifecycle methods get called.  
+		// lifecycle counts
+		//TODO: Create 7 counter variables, each corresponding to a different one of the lifecycle callback methods.
+		//TODO:  increment the variables' values when their corresponding lifecycle methods get called.
 		
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +25,7 @@ public class ActivityOne extends Activity {
 			//Log cat print out
 			Log.i(TAG, "onCreate called");
 			
-			//TODO:
-			//update the appropriate count variable
-			//update the view
+			//TODO: update the appropriate count variable & update the view
 		}
 
 		@Override
@@ -48,24 +44,19 @@ public class ActivityOne extends Activity {
 			//Log cat print out
 			Log.i(TAG, "onStart called");
 			
-			//TODO:
-			//update the appropriate count variable
-			//update the view 
+			//TODO:  update the appropriate count variable & update the view
 		}
 
 	    // TODO: implement 5 missing lifecycle callback methods
 
 		@Override
 		public void onSaveInstanceState(Bundle savedInstanceState){
-			//TODO:
-			// save state information with a collection of key-value pairs
-			// save all  count variables
+			//TODO:  save state information with a collection of key-value pairs & save all  count variables
 		}
-		
+
+
 		public void launchActivityTwo(View view) {
-			//TODO:
-			// This function launches Activity Two. 
-			// Hint: use Context’s startActivity() method.
+			startActivity(new Intent(this, ActivityTwo.class));
 		}
 		
 

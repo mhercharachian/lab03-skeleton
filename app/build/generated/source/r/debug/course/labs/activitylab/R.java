@@ -47,8 +47,9 @@ public final class R {
         public static final int onResume=0x7f05000a;
         public static final int onStart=0x7f05000b;
         public static final int onStop=0x7f05000c;
-        public static final int title_activity_activity_two=0x7f05000d;
-        public static final int welcome=0x7f05000e;
+        public static final int rotateMe=0x7f05000d;
+        public static final int title_activity_activity_two=0x7f05000e;
+        public static final int welcome=0x7f05000f;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
