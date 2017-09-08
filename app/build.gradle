@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "course.labs.activitylab"
-        minSdkVersion 8
-        targetSdkVersion 17
+        minSdkVersion  18
+        targetSdkVersion 21
     }
 
     buildTypes {
