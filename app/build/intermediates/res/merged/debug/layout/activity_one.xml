@@ -9,37 +9,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onCreate" />
-    
+
     <TextView android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onStart" />
-    
+
     <TextView android:id="@+id/resume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onResume" />
-    
+
     <TextView android:id="@+id/pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onPause" />
-    
+
     <TextView android:id="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onStop" />
-    
+
     <TextView android:id="@+id/restart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onRestart" />
-    
+
     <TextView android:id="@+id/destroy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/onDestroy" />
-    
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
