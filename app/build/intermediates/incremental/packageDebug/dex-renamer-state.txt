@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #Mon Sep 11 15:40:14 EDT 2017
 base.0=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+=======
+#Mon Sep 11 15:40:14 EDT 2017
+base.0=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+>>>>>>> c9e110ba9479fc1547031f4a222014de096cc787

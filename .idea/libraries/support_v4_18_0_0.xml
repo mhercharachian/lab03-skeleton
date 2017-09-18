@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <component name="libraryTable">
   <library name="support-v4-18.0.0">
     <CLASSES>
@@ -8,4 +9,16 @@
       <root url="jar://C:/dev/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0-sources.jar!/" />
     </SOURCES>
   </library>
+=======
+<component name="libraryTable">
+  <library name="support-v4-18.0.0">
+    <CLASSES>
+      <root url="jar://C:/dev/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/dev/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+>>>>>>> c9e110ba9479fc1547031f4a222014de096cc787
 </component>
