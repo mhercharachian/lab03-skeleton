@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laboratoire d\'activités</string>
+    <string name="button">Bouton</string>
+    <string name="close">Fermer</string>
+    <string name="m_1">Élément de menu 1</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="rotateMe">Tourner l\'appareil</string>
+    <string name="title_activity_activity_two">Deuxième activité</string>
+    <string name="welcome">Bienvenue au deuxième activité(appuyez sur le bouton retour pour terminer)</string>
+    <string name="m_2">Élément de menu 2</string>
+    <string name="onCreate">onCreate() appels:</string>
+    <string name="onDestroy">OnDestroy() appels:</string>
+    <string name="onPause">onPause() appels:</string>
+    <string name="onRestart">onRestart() appels:</string>
+    <string name="onResume">onResume() appels:</string>
+    <string name="onStart">onStart() appels:</string>
+    <string name="onStop">onStop() appels:</string>
+</resources>

@@ -32,7 +32,7 @@ ADDED from I:\lab03-skeleton\app\src\main\AndroidManifest.xml:11:5-29:19
 	android:allowBackup
 		ADDED from I:\lab03-skeleton\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from I:\lab03-skeleton\app\src\main\AndroidManifest.xml:13:9-45
+		ADDED from I:\lab03-skeleton\app\src\main\AndroidManifest.xml:13:9-46
 	android:theme
 		ADDED from I:\lab03-skeleton\app\src\main\AndroidManifest.xml:15:9-40
 activity#course.labs.activitylab.ActivityOne

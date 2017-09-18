@@ -1,0 +1,311 @@
+[
+    {
+        "outputFile": "I:\\lab03-skeleton\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 61,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 41,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 41,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 40,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 40,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 49,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 49,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 49,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 555,
+                        "endColumn": 49,
+                        "endOffset": 600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 300,
+                    "endColumn": 52,
+                    "endOffset": 348
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 52,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 353,
+                    "endColumn": 55,
+                    "endOffset": 404
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 55,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 409,
+                    "endColumn": 57,
+                    "endOffset": 462
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 57,
+                        "endOffset": 716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 467,
+                    "endColumn": 53,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endColumn": 53,
+                        "endOffset": 771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 57,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 777,
+                        "endColumn": 57,
+                        "endOffset": 830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 55,
+                    "endOffset": 630
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 55,
+                        "endOffset": 887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 635,
+                    "endColumn": 53,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 893,
+                        "endColumn": 53,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 51,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 948,
+                        "endColumn": 51,
+                        "endOffset": 995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 741,
+                    "endColumn": 56,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 56,
+                        "endOffset": 362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 73,
+                    "endOffset": 867
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 73,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 872,
+                    "endColumn": 110,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "I:\\lab03-skeleton\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 443,
+                        "endColumn": 110,
+                        "endOffset": 549
+                    }
+                }
+            }
+        ]
+    }
+]

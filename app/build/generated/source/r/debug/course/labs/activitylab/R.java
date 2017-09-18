@@ -14,24 +14,27 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int create=0x7f070000;
-        public static final int destroy=0x7f070006;
-        public static final int item1=0x7f070008;
-        public static final int item2=0x7f070009;
-        public static final int menu_settings=0x7f070007;
-        public static final int pause=0x7f070003;
-        public static final int restart=0x7f070005;
-        public static final int resume=0x7f070002;
-        public static final int start=0x7f070001;
-        public static final int stop=0x7f070004;
+        public static final int create=0x7f080000;
+        public static final int destroy=0x7f080006;
+        public static final int item1=0x7f080008;
+        public static final int item2=0x7f080009;
+        public static final int menu_settings=0x7f080007;
+        public static final int pause=0x7f080003;
+        public static final int restart=0x7f080005;
+        public static final int resume=0x7f080002;
+        public static final int start=0x7f080001;
+        public static final int stop=0x7f080004;
     }
     public static final class layout {
-        public static final int activity_one=0x7f030000;
-        public static final int activity_two=0x7f030001;
+        public static final int activity_one=0x7f040000;
+        public static final int activity_two=0x7f040001;
     }
     public static final class menu {
-        public static final int activity_one=0x7f060000;
-        public static final int activity_two=0x7f060001;
+        public static final int activity_one=0x7f070000;
+        public static final int activity_two=0x7f070001;
+    }
+    public static final class mipmap {
+        public static final int web_hi_res_512=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
@@ -60,9 +63,9 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
+        public static final int AppTheme=0x7f060001;
     }
 }

@@ -1,22 +1,23 @@
-<<<<<<< HEAD
 #Internal package file, do not edit.
-#Mon Sep 11 15:40:14 EDT 2017
+#Mon Sep 18 14:56:45 EDT 2017
 2.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-5.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_two.xml
+5.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_one.xml
 5.set=ANDROID_RESOURCE
 3.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
 6.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
 2.set=DEX
 4.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-7.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+7.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap\\web_hi_res_512.png
 7.set=ANDROID_RESOURCE
-count=9
+count=10
 0.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\assets\\debug\\lab03-activity-logging-state-prefs.docx
 5.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-8.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+8.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 4.set=ANDROID_RESOURCE
 6.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_two.xml
+9.set=ANDROID_RESOURCE
+9.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 1.set=ANDROID_RESOURCE
 7.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
 2.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
@@ -26,38 +27,7 @@ count=9
 3.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_one.xml
 3.set=ANDROID_RESOURCE
 1.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-4.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_one.xml
+9.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_two.xml
 8.set=ANDROID_RESOURCE
 0.set=ASSET
-=======
-#Internal package file, do not edit.
-#Mon Sep 11 15:40:14 EDT 2017
-2.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-5.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_two.xml
-5.set=ANDROID_RESOURCE
-3.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-6.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
-2.set=DEX
-4.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-7.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
-7.set=ANDROID_RESOURCE
-count=9
-0.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\assets\\debug\\lab03-activity-logging-state-prefs.docx
-5.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-8.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
-4.set=ANDROID_RESOURCE
-6.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-1.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_two.xml
-1.set=ANDROID_RESOURCE
-7.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-2.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
-6.set=ANDROID_RESOURCE
-0.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\assets\\debug
-8.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-3.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_one.xml
-3.set=ANDROID_RESOURCE
-1.base=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_
-4.file=I\:\\lab03-skeleton\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_one.xml
-8.set=ANDROID_RESOURCE
-0.set=ASSET
->>>>>>> c9e110ba9479fc1547031f4a222014de096cc787
