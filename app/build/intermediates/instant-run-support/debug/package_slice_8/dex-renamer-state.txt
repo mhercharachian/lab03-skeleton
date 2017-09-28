@@ -1,4 +1,4 @@
-#Thu Sep 07 22:36:46 EDT 2017
-base.0=C\:\\Users\\owner\\gitstuff\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+#Wed Sep 27 21:19:33 EDT 2017
+base.0=/Users/Mher/Desktop/lab03-skeleton/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
 renamed.0=classes.dex
-file.0=C\:\\Users\\owner\\gitstuff\\lab03-skeleton\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex
+file.0=/Users/Mher/Desktop/lab03-skeleton/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex

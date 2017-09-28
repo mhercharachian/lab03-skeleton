@@ -1,5 +1,6 @@
 package course.labs.activitylab;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -16,17 +17,14 @@ public class ActivityOne extends Activity {
 		private final static String TAG = "Lab-ActivityOne";
 
 		// lifecycle counts
-		//TODO: Create 7 counter variables, each corresponding to a different one of the lifecycle callback methods.
 		int createCount = 0;
 		int startCount = 0;
 		int resumeCount = 0;
 		int pauseCount = 0;
 		int stopCount = 0;
-		int restartCount = 0;
-		int destroyCount = 0;
-		TextView create, start, resume, pause;
+		TextView create, start, resume, pause, stop;
+		private SharedPreferences prefs;
 
-		//TODO:  increment the variables' values when their corresponding lifecycle methods get called.
 		
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +33,55 @@ public class ActivityOne extends Activity {
 
 			//Log cat print out
 			Log.i(TAG, "onCreate called");
-			
-			//TODO: update the appropriate count variable & update the view
-			createCount++;
+
+			prefs = getPreferences(MODE_PRIVATE);
+
+			createCount = prefs.getInt("createCounter", 0);
 			create = (TextView) findViewById(R.id.create);
 			String text = getString(R.string.onCreate);
+			create.setText(text + " " + createCount);
+
+			startCount = prefs.getInt("startCounter", 0);
+			start = (TextView) findViewById(R.id.start);
+			String text2 = getString(R.string.onStart);
+			start.setText(text + " " + startCount);
+
+			resumeCount = prefs.getInt("resumeCounter", 0);
+			resume = (TextView) findViewById(R.id.resume);
+			String text3 = getString(R.string.onResume);
+			resume.setText(text + " " + resumeCount);
+
+			pauseCount = prefs.getInt("pauseCounter", 0);
+			pause = (TextView) findViewById(R.id.pause);
+			String text4 = getString(R.string.onPause);
+			pause.setText(text + " " + pauseCount);
+
+			stopCount = prefs.getInt("stopCounter", 0);
+			stop = (TextView) findViewById(R.id.stop);
+			String text5 = getString(R.string.onStop);
+			stop.setText(text + " " + stopCount);
+
+			/*if (savedInstanceState != null) {
+				Log.d(TAG, "inside the oncreate savedinstancestate");
+				createCount = savedInstanceState.getInt("createCounter");
+				startCount = savedInstanceState.getInt("startCounter");
+				resumeCount = savedInstanceState.getInt("resumeCounter");
+					resume = (TextView) findViewById(R.id.resume);
+					String text = getString(R.string.onResume);
+					resume.setText(text + " " + resumeCount);
+				pauseCount = savedInstanceState.getInt("pauseCounter");
+					pause = (TextView) findViewById(R.id.pause);
+					String text2 = getString(R.string.onPause);
+					pause.setText(text2 + " " + pauseCount);
+				stopCount = savedInstanceState.getInt("stopCounter");
+					stop = (TextView) findViewById(R.id.stop);
+					String text3 = getString(R.string.onStop);
+					stop.setText(text3 + " " + stopCount);
+			}*/
+
+			createCount++;
+			create = (TextView) findViewById(R.id.create);
+			String text6 = getString(R.string.onCreate);
 			create.setText(text + " " + createCount);
 		}
 
@@ -57,8 +99,7 @@ public class ActivityOne extends Activity {
 			super.onStart();
 			//Log cat print out
 			Log.i(TAG, "onStart called");
-			
-			//TODO:  update the appropriate count variable & update the view
+
 			startCount++;
 			start = (TextView) findViewById(R.id.start);
 			String text = getString(R.string.onStart);
@@ -71,11 +112,10 @@ public class ActivityOne extends Activity {
 			//Log cat print out
 			Log.i(TAG, "onResume called");
 
-			//TODO:  update the appropriate count variable & update the view
 			resumeCount++;
 			resume = (TextView) findViewById(R.id.resume);
 			String text = getString(R.string.onResume);
-			resume.setText(text + " " + restartCount);
+			resume.setText(text + " " + resumeCount);
 		}
 
 		@Override
@@ -84,7 +124,7 @@ public class ActivityOne extends Activity {
 			//Log cat print out
 			Log.i(TAG, "onPause called");
 
-			//TODO:  update the appropriate count variable & update the view
+			
 			pauseCount++;
 			pause = (TextView) findViewById(R.id.pause);
 			String text = getString(R.string.onPause);
@@ -95,25 +135,44 @@ public class ActivityOne extends Activity {
 		public void onStop(){
 		super.onStop();
 		//Log cat print out
-		Log.i(TAG, "onPause called");
+		Log.i(TAG, "onStop called");
 
-		//TODO:  update the appropriate count variable & update the view
-		pauseCount++;
-		pause = (TextView) findViewById(R.id.pause);
-		String text = getString(R.string.onPause);
-		pause.setText(text + " " + pauseCount);
+		
+		stopCount++;
+		stop = (TextView) findViewById(R.id.stop);
+		String text = getString(R.string.onStop);
+		stop.setText(text + " " + stopCount);
+
+			saveCounters();
 	}
-
-
-	// TODO: implement 5 missing lifecycle callback methods
 
 		@Override
 		public void onSaveInstanceState(Bundle savedInstanceState){
-			//TODO:  save state information with a collection of key-value pairs & save all  count variables
+			super.onSaveInstanceState(savedInstanceState);
+			Log.d(TAG, "onSaveInstanceState()");
+			Log.d(TAG, "createCount: " + createCount + " startCount: " + startCount + " pauseCount: " + pauseCount + " resumeCount " +  resumeCount + " stopCount: " + stopCount ) ;
+			savedInstanceState.putInt("createCounter", createCount);
+			savedInstanceState.putInt("startCounter", startCount);
+			savedInstanceState.putInt("pauseCounter", pauseCount);
+			savedInstanceState.putInt("resumeCounter", resumeCount);
+			savedInstanceState.putInt("stopCounter", stopCount);
+
+		}
+
+		public void saveCounters()
+		{
+			SharedPreferences.Editor editor = prefs.edit();
+			editor.putInt("createCounter", createCount);
+			editor.putInt("startCounter", startCount);
+			editor.putInt("resumeCounter", resumeCount);
+			editor.putInt("pauseCounter", pauseCount);
+			editor.putInt("stopCounter", stopCount);
+			editor.commit();
 		}
 
 
-		public void launchActivityTwo(View view) {
+		public void launchActivityTwo(View view)
+		{
 			startActivity(new Intent(this, ActivityTwo.class));
 		}
 		
